@@ -6,3 +6,4 @@ Então assim desenvolvi esta ferramenta desktop para poder gerar relatórios de 
 O mesmo não realiza controle de estoque mas sim produto por cliente e dispesas.
 
 Programador : Dirceu Luis Heineck
+Email: dirceulh@hotmail.com
