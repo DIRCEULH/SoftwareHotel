@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 06/10/2015 23:41:33 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="modelagem1.Consumo" table="consumo" catalog="hotel" optimistic-lock="version">
+        <id name="idconsumo" type="java.lang.Integer">
+            <column name="idconsumo" />
+            <generator class="increment" />
+        </id>
+        <property name="idhospedagem" type="java.lang.Integer">
+            <column name="idhospedagem" />
+        </property>
+        <property name="nomeproduto" type="string">
+            <column name="nomeproduto" length="45" />
+        </property>
+        <property name="preco" type="string">
+            <column name="preco" length="45" />
+        </property>
+        <property name="quantidade" type="java.lang.Integer">
+            <column name="quantidade" />
+        </property>
+        <property name="nome" type="string">
+            <column name="nome" length="45" />
+        </property>
+        <property name="dia" type="java.lang.Integer">
+            <column name="dia" />
+        </property>
+        <property name="mes" type="java.lang.Integer">
+            <column name="mes" />
+        </property>
+        <property name="ano" type="java.lang.Integer">
+            <column name="ano"  />
+        </property>
+    </class>
+</hibernate-mapping>

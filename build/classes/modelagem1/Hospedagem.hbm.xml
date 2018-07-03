@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 10/10/2015 20:13:36 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="hotel" name="modelagem1.Hospedagem" optimistic-lock="version" table="hospedagem">
+    <id name="idhospedagem" type="java.lang.Integer">
+      <column name="idhospedagem"/>
+      <generator class="increment"/>
+    </id>
+    <property name="nome" type="string">
+      <column length="45" name="nome" not-null="true"/>
+    </property>
+    <property name="nquarto" type="int">
+      <column name="nquarto" not-null="true"/>
+    </property>
+    <property name="qtpessoas" type="int">
+      <column name="qtpessoas" not-null="true"/>
+    </property>
+    <property name="dataentrada" type="string">
+      <column length="45" name="dataentrada" not-null="true"/>
+    </property>
+    <property name="datasaida" type="string">
+      <column length="45" name="datasaida" not-null="true"/>
+    </property>
+    <property name="preco" type="string">
+      <column length="45" name="preco" not-null="true"/>
+    </property>
+  </class>
+</hibernate-mapping>
